@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header, main{
+    width: 290px;
+    margin: 0 auto;
+}
+
+header h1{
+    color: dodgerblue;
+    font-weight: 700;
+    font-size: 22px; 
+}
+button{
+    margin-top: 20px;
+    width: 290px;
+    height: 50px;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 100px;
+}
+.handle{
+    color: #666;
+    font-size: 13px;
+}
+.personal{
+    font-size: 14px;
+    font-weight: lighter;
+    border-top: 1px solid #999;
+    margin-top: 15px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+.reply{
+    padding-left: 50px;
+}
+
+.reply img{
+    height: 50px;
+}
+.icons-num{
+    margin-left: 35px;
+    padding-left: 20px;
+}
+.hidden{
+    display: none;
+}
+.icons{
+    font-size: 13px;
+    margin-right: 35px;
+}
+.fa-solid{
+    color: #999;
+}
+.profile{
+    padding-top: x;
+}
+
+.liked{
+   color: red;
+}
+.retweet{
+    color: limegreen;
+}
+
+.personal p{
+    line-height: 20px;
+}
+i{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.profile-pic{
+    width: 20%;
+    height: 55px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.img-text{
+    margin-top: 30px;
+    display: flex;
+}
+textarea{
+    resize: none;
+    width: 250px;
+    height: 80px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.logo{
+    width: 80px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
